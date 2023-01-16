@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,7 +17,6 @@
             <button class="btn" id="dili"><b>dili</b></button>
         </div>
     </div> 
-</body>
 <script>
     const noBtn = document.getElementById('dili');
     const yesBtn = document.getElementById('gwapo');
@@ -36,4 +35,4 @@
 <div>
     <p1>Created by Ramil Baruiz</p1>
 </div>
-</html>
+
