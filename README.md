@@ -12,15 +12,15 @@
     <div class="w3-container w3-center w3-animate-zoom">
     <div class="wrapper">
         <div class="container">
-            <p id="question"><span>Crush mo'ko no?</span></p>
-            <button class="btn" id="Oo"><b>Oo</b></button>
-            <button class="btn" id="Hinde"><b>Hinde</b></button>
+            <p id="question"><span>Leslie gwapo ko dili?</span></p>
+            <button class="btn" id="gwapo"><b>gwapo</b></button>
+            <button class="btn" id="dili"><b>dili</b></button>
         </div>
     </div> 
 </body>
 <script>
-    const noBtn = document.getElementById('Hinde');
-    const yesBtn = document.getElementById('Oo');
+    const noBtn = document.getElementById('dili');
+    const yesBtn = document.getElementById('gwapo');
     const ques = document.getElementById('question');
     let btn = document.getElementById('btn');
         let position;
@@ -30,10 +30,10 @@
         noBtn.style.transform = "translate("+rand+"px,"+rand2+"px)";
         });
     yesBtn.addEventListener("click",()=>{
-        ques.innerHTML = "Ikaw Haaaaa HAHAHAHAHA <3"
+        ques.innerHTML = "ayw nag palag gwapo lagi ko hahahahhaha"
     })
 </script>
 <div>
-    <p1>Created by:Ramil Baruiz</p1>
+    <p1>Created by Ramil Baruiz</p1>
 </div>
 </html>
